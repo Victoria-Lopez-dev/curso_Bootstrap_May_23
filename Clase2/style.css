@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap');
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.tarjeta{
+    border: 2px solid blue;
+    /* uso la clas d-flex para reemplazar display: flex; d-flex */
+    background-color: lightcoral !important;
+}
+div{
+    background-color:green ;
+}
+#tarjeta1{
+    background-color: lightblue !important;
+
+}
+.row{
+    background-color: red;
+    border: 2px solid brown;
+   
+}
+h1{
+    background-color: darkcyan;
+}
+section{
+    gap: 20px;
+}
+/* .container{
+    margin-left: 0;
+} */
+/* Gerarquia CSS:
+tarjeta : un fondo coral, fondo verde , fondo azul
+  - el que "gana" es el selector mas especifico.
+  - vamos de mas general a mas especifico.
+*/
+@media (max-width:550px){
+    .titulo{
+        display: none;
+    }
+}
