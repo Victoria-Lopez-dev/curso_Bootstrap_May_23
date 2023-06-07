@@ -1,0 +1,13 @@
+.card{
+    width: 200px;
+}
+.dropdown-item:hover{
+    background-color: pink;
+}
+/* #primerCarousel{
+    width: 80vw;
+} */
+.bi-pin-angle-fill{
+    font-size: 40px;
+    color: #f90;
+}
